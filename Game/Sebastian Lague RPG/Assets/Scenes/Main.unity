@@ -2141,7 +2141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items: []
-  space: 2
+  space: 20
 --- !u!4 &594916168
 Transform:
   m_ObjectHideFlags: 0
@@ -3052,6 +3052,7 @@ GameObject:
   - component: {fileID: 779145239}
   - component: {fileID: 779145238}
   - component: {fileID: 779145237}
+  - component: {fileID: 779145241}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3143,6 +3144,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &779145241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779145236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa54fdeffb7e4ade818ce7ea32b381f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsParent: {fileID: 621812825}
+  inventoryUI: {fileID: 0}
 --- !u!1 &799319906
 GameObject:
   m_ObjectHideFlags: 0
@@ -3157,7 +3172,7 @@ GameObject:
   - component: {fileID: 799319908}
   - component: {fileID: 799319907}
   m_Layer: 0
-  m_Name: TestItem (1)
+  m_Name: Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3177,7 +3192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 1.25
   interactionTransform: {fileID: 799319911}
-  item: {fileID: 11400000, guid: b35ce8b07d3b149ef82bb97d62488368, type: 2}
+  item: {fileID: 11400000, guid: a07bd40974a204739ab3d8adb75d1cfb, type: 2}
 --- !u!65 &799319908
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6121,7 +6136,7 @@ GameObject:
   - component: {fileID: 1576687131}
   - component: {fileID: 1576687130}
   m_Layer: 0
-  m_Name: TestItem
+  m_Name: Helmet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
