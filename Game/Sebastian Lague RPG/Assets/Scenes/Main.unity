@@ -2121,6 +2121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 594916168}
   - component: {fileID: 594916167}
+  - component: {fileID: 594916169}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2157,6 +2158,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &594916169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594916166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2f590dda9534928a666b73bd4c383d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &597238664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3172,7 +3185,7 @@ GameObject:
   - component: {fileID: 799319908}
   - component: {fileID: 799319907}
   m_Layer: 0
-  m_Name: Shield
+  m_Name: HelmetOfProtection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3192,7 +3205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 1.25
   interactionTransform: {fileID: 799319911}
-  item: {fileID: 11400000, guid: a07bd40974a204739ab3d8adb75d1cfb, type: 2}
+  item: {fileID: 11400000, guid: 0270a192a47974f1caa00dd1b503dd61, type: 2}
 --- !u!65 &799319908
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5313,7 +5326,7 @@ GameObject:
   - component: {fileID: 1385693903}
   - component: {fileID: 1385693902}
   m_Layer: 0
-  m_Name: TestItem (2)
+  m_Name: SwordOfDestiny
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5333,7 +5346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 1.25
   interactionTransform: {fileID: 1385693906}
-  item: {fileID: 11400000, guid: b35ce8b07d3b149ef82bb97d62488368, type: 2}
+  item: {fileID: 11400000, guid: 7ec8b3a7f3a5d49df8395c27752db8b7, type: 2}
 --- !u!65 &1385693903
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6136,7 +6149,7 @@ GameObject:
   - component: {fileID: 1576687131}
   - component: {fileID: 1576687130}
   m_Layer: 0
-  m_Name: Helmet
+  m_Name: HelmetOfFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6156,7 +6169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 1.25
   interactionTransform: {fileID: 1576687134}
-  item: {fileID: 11400000, guid: b35ce8b07d3b149ef82bb97d62488368, type: 2}
+  item: {fileID: 11400000, guid: 1212e96740bef49e4b85b731a5a9fb59, type: 2}
 --- !u!65 &1576687131
 BoxCollider:
   m_ObjectHideFlags: 0
